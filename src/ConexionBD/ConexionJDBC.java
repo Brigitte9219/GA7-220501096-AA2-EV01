@@ -1,5 +1,5 @@
 
-package timco;
+package ConexionBD;
 
 //1.Incluir la libreria
 import java.sql.*;
