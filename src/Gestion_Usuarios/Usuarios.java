@@ -10,7 +10,6 @@ public class Usuarios {
     //Definición de los atributos o variables de la clase
     public int idusuario;
     public String Nombre_Completo;
-    public int trabajador_Numero_ID;
     public String Usuario;
     public String Contraseña;
     public String Confirmar_Contraseña;
@@ -20,11 +19,9 @@ public class Usuarios {
     public String Correo_Electronico;
     public String Telefono_Movil;
 
-    // Método constructor para inicializar los atributos
-    public Usuarios(int idusuario, String Nombre_Completo, int trabajador_Numero_ID, String Usuario, String Contraseña, String Confirmar_Contraseña, String Proyecto, String Genero, Date Fecha_Nacimiento, String Correo_Electronico, String Telefono_Movil) {
+    public Usuarios(int idusuario, String Nombre_Completo, String Usuario, String Contraseña, String Confirmar_Contraseña, String Proyecto, String Genero, Date Fecha_Nacimiento, String Correo_Electronico, String Telefono_Movil) {
         this.idusuario = idusuario;
         this.Nombre_Completo = Nombre_Completo;
-        this.trabajador_Numero_ID = trabajador_Numero_ID;
         this.Usuario = Usuario;
         this.Contraseña = Contraseña;
         this.Confirmar_Contraseña = Confirmar_Contraseña;
@@ -35,7 +32,6 @@ public class Usuarios {
         this.Telefono_Movil = Telefono_Movil;
     }
 
-    // Getters y setters - Acceder y Modificar
     public int getIdusuario() {
         return idusuario;
     }
@@ -50,14 +46,6 @@ public class Usuarios {
 
     public void setNombre_Completo(String Nombre_Completo) {
         this.Nombre_Completo = Nombre_Completo;
-    }
-
-    public int getTrabajador_Numero_ID() {
-        return trabajador_Numero_ID;
-    }
-
-    public void setTrabajador_Numero_ID(int trabajador_Numero_ID) {
-        this.trabajador_Numero_ID = trabajador_Numero_ID;
     }
 
     public String getUsuario() {
@@ -123,6 +111,6 @@ public class Usuarios {
     public void setTelefono_Movil(String Telefono_Movil) {
         this.Telefono_Movil = Telefono_Movil;
     }
-    
-    
+
 }
+    
